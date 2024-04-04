@@ -1,0 +1,21 @@
+{
+  "name": "c2p",
+  "module": "src/index.ts",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bun build --compile src/index.ts --minify --outfile=build/c2p"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pngjs": "^6.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "image-size": "^1.1.1",
+    "pngjs": "^7.0.0"
+  }
+}
